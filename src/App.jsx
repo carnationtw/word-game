@@ -295,7 +295,8 @@ const App = () => {
         <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 rounded-full blur-[100px] opacity-20 pointer-events-none" style={{ backgroundColor: theme.neonCyan }}></div>
         <div className="p-6 sm:p-8 rounded-[2rem] shadow-2xl w-full max-w-lg text-center relative z-10 border border-gray-800 backdrop-blur-sm" style={{ backgroundColor: 'rgba(31, 40, 51, 0.85)' }}>
           <h1 className="text-5xl sm:text-6xl font-black mb-2 tracking-widest italic" style={{ color: theme.neonCyan, textShadow: `0 0 10px ${theme.neonCyan}` }}>字字珠璣</h1>
-          <p className="font-bold mb-8 text-lg sm:text-xl tracking-wider" style={{ color: theme.neonPink }}>▶ 程式設計：鄭念慈老師 ◀</p>
+          {/* 更新這裡：加入(完整版)字樣，方便確認發布成功 */}
+          <p className="font-bold mb-8 text-lg sm:text-xl tracking-wider" style={{ color: theme.neonPink }}>▶ 程式設計：鄭念慈老師 (完整版) ◀</p>
           <div className="space-y-4 mb-8 text-left font-medium">
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="flex-1">
